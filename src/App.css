@@ -116,9 +116,8 @@ select option {
     .bookshelf-main{
       margin: 0px 10px;
     }
-    .category{
-    
-      
+    .library{
+      margin: 10px;
     }
     .book-container{
       grid-template-columns: 1fr 1fr;
