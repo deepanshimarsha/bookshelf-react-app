@@ -42,7 +42,7 @@
   justify-content: center;
   gap: 1rem;
   width: 100%;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 
 }
 .bookshelf-main{
@@ -124,5 +124,13 @@ select option {
     }
     .search-bar{
       width: 400px !important;
+    }
+    .category {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+      width: 100%;
+      /* flex-wrap: wrap; */
+    
     }
   }
