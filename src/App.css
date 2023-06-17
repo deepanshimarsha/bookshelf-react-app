@@ -68,6 +68,7 @@ select option {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  align-items: center;
   margin: 10px 300px;
 }
 .book-container{
@@ -85,3 +86,21 @@ select option {
     align-items: stretch;
     width: 100%;
 }
+@media (min-width: 750px) and (max-width: 1260px) {
+  .book-container{
+    grid-template-columns: 1fr 1fr 1fr;
+    
+  }
+  .search-bar{
+    width: 400px !important;
+  }
+}
+
+  @media (min-width: 200px) and (max-width: 749px) {
+    .book-container{
+      grid-template-columns: 1fr 1fr;
+    }
+    .search-bar{
+      width: 200px !important;
+    }
+  }
