@@ -18,7 +18,7 @@ const BookContextProvider = ({ children }) => {
   console.log(state);
   useEffect(() => {
     dispatch({ type: "FILTER_BY_TITLE" });
-  }, [state.searchInput]);
+  }, [state.searchInput]); // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
     <BookContext.Provider value={{ state, dispatch }}>

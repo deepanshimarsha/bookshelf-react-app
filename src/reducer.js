@@ -71,13 +71,13 @@ export const reducer = (state, action) => {
         filteredBook = filteredBook.filter(({ title }) =>
           title.toLowerCase().includes(state.searchInput.toLowerCase())
         );
-      } else {
-        filteredBook = filteredBook;
       }
       return {
         ...state,
         allBooks: filteredBook,
       };
     }
+    default:
+      throw new Error("Unknown action type");
   }
 };
