@@ -21,12 +21,11 @@ export const books = [
   },
   {
     id: 3,
-    title: "The Catcher in the Rye",
-    author: "J.D. Salinger",
+    title: " War and Peace",
+    author: " Leo Tolstoy",
     publisher: "Little, Brown and Company",
     year: 1951,
-    image:
-      "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/91HPG31dTwL.jpg",
+    image: "https://d3i5mgdwi2ze58.cloudfront.net/hwi2qqngyicqz7s7ps4x4k1ei14k",
     price: 10.99,
     category: "want to read",
   },
