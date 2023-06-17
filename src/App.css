@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  
 }
 
 .App-logo {
@@ -35,4 +35,53 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.category {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+
+}
+.bookshelf-main{
+  padding: 20px;
+  margin: 0px 300px;
+  
+}
+.container {
+  padding: 10px;
+}
+.container h2{
+  padding: 10px;
+}
+
+select option {
+  display: flex;
+  gap: 2rem;
+}
+.topNav {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+.library {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px 300px;
+}
+.book-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+  justify-content: center;
+
+ 
+}
+.search-bar{
+  margin: 10px !important;
+  display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
 }
