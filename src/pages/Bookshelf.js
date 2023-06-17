@@ -5,7 +5,7 @@ export default function Bookshelf() {
 
   return (
     <div className="bookshelf-main">
-      <div className="container">
+      <div className="containers">
         <h2>Read</h2>
         <hr></hr>
         <div className="category">
@@ -14,8 +14,8 @@ export default function Bookshelf() {
           })}
         </div>
       </div>
-      <div className="container">
-        <h2>currently reading</h2>
+      <div className="containers">
+        <h2>Currently reading</h2>
         <hr></hr>
         <div className="category">
           {state.currentlyReading.map((book) => {
@@ -23,7 +23,7 @@ export default function Bookshelf() {
           })}
         </div>
       </div>
-      <div className="container">
+      <div className="containers">
         <h2>Want to read</h2>
         <hr></hr>
         <div className="category">
